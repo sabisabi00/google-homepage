@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+
+    
+}
+/*HEADER*/
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    margin-top: 15px;
+    font-family: arial;
+
+}
+
+#derecha {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.izquierda {
+    margin-left: 20px;
+}
+
+#izquierda {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.derecha {
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link
+{
+text-decoration:none;
+color: rgb(77, 75, 75);
+font-size: 90%;
+}
+
+.signin {
+    background-color: #4285F4;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-right: 5%;
+    border: none;
+    
+}
+
+/*BODY*/
+
+.cuerpo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin: 8% auto;
+}
+
+.google {
+    margin-top: 3%;
+    
+}
+
+#barra {
+    margin-top: 3%;
+}
+
+#busqueda {
+    height: 40px;
+    width: 500px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+    margin-top: auto;
+    background:url(https://maurgb.github.io/google-homepage/lupa.png) no-repeat 15px 10px;
+    padding-left:45px;
+}
+
+#busqueda:hover {
+    -webkit-box-shadow: 0px 4px 13px -2px rgba(183,183,183,0.67); 
+box-shadow: 0px 4px 13px -2px rgba(183,183,183,0.67);
+}
+
+#lupa {
+    width: 5%;
+    height: auto;
+}
+
+
+.gris {
+    color:rgb(97, 97, 97);
+    font-size: 16px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding: 8px 20px;
+    margin-left: 20px;
+
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    position:absolute;
+    bottom:0;
+}
+.nav-abajo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    margin-top: 15px;
+    font-family: arial;
+    background-color: rgb(233, 233, 233);
+}
+
+#derecha-abajo {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.izquierda-a {
+    margin-left: 20px;
+}
+
+#izquierda-abajo {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.derecha-a {
+    margin-left: 20px;
+}
